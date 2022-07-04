@@ -1,0 +1,1 @@
+SELECT * FROM schema.table1 inner join schema.table2 on table1.column1=tsble2.column2;
