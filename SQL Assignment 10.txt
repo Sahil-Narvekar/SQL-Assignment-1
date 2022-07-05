@@ -1,0 +1,3 @@
+--MySQL
+1)select * from (select first_name,last_name,dense_rank () over ( order by salary desc) sal_rank from world.employees) as a where sal_rank=5
+2)SELECT e1.* FROM world.employees e1 inner join world.employees e2 on e1.employee_id<>e2.EMPLOYEE_ID and e1.SALARY=e2.SALARY order by salary;
